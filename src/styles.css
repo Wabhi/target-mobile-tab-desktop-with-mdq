@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border: 2px solid red;
+  align-items: center;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .box {
+    background-color: red;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .box {
+    background-color: yellow;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .box {
+    background-color: blue;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .box {
+    background-color: green;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .box {
+    background-color: white;
+  }
+}
